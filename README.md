@@ -16,11 +16,19 @@ verilog2pwl 是一个将Verilog DUT Testbench生成的Value Change Dump (VCD) �
 Clone the repository and enter the project directory:
 
 ```bash
-cd /path/to/verilog2pwl
+cd verilog2pwl
+
+uv init
+
+uv venv
+
+uv .venv/bin/activate
+
+uv sync
 ```
 
-项目依赖Python 3.8或更高版本。
-This project requires Python 3.8 or higher.
+项目依赖Python 3.8或更高版本。依赖详见 requirements.txt
+This project requires Python 3.8 or higher. Dependencies are listed in requirements.txt.
 
 ## 使用方法 / Usage
 ### 基本用法 / Basic Usage
